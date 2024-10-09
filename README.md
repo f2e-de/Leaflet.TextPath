@@ -3,12 +3,26 @@ Leaflet.TextPath
 
 Shows a text along a Polyline.
 
-Check out the [demo](https://makinacorpus.github.io/Leaflet.TextPath/) !
+<p align="center">
+<a href="https://www.npmjs.com/package/leaflet-textpath"><img alt="npm" src="https://img.shields.io/npm/dt/leaflet-textpath"></a>
+<a href="https://www.npmjs.com/package/leaflet-textpath"><img alt="npm" src= "https://img.shields.io/npm/v/leaflet-textpath?color=red"></a>
+</p>
+
+<div class="demo">
+<p align="center"><img src="./screenshot.png"></p>
+<p align="center">Check out the <a href="https://makinacorpus.github.io/Leaflet.TextPath/">demo</a> ! </p>
+</div>
+
+Install
+-----
+install it via your favorite package manager:
+
+`npm i leaflet-textpath`
 
 Leaflet versions
 -----
 
-The version on the `gh-pages` branch targets Leaflet `1.3.1`.
+The version on the github page (demo) currently targets Leaflet `1.3.1`.
 
 Usage
 -----
@@ -51,66 +65,14 @@ With a GeoJSON containing lines, it becomes:
 
 * `attributes` Object containing the attributes applied to the `text` tag. Check valid attributes [here](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text#Attributes) (Default: `{}`)
 
-Screenshot
-----------
-
-![screenshot](https://raw.github.com/makinacorpus/Leaflet.TextPath/gh-pages/screenshot.png)
-
 Credits
 -------
 
-The main idea comes from Tom Mac Wright's *[Getting serious about SVG](http://mapbox.com/osmdev/2012/11/20/getting-serious-about-svg/)*
-
-
-Changelog
----------
-
-### development ###
-
-* Nothing changed yet.
-
-### 1.1.0 ###
-
-* Add the orientation option (#27, thanks @kirkau)
-
-### 1.0.2 ###
-
-* Allow HTTP and HTTPS to access the demo (#39, thanks @sonny89 and @leplatrem)
-
-### 1.0.1 ###
-
-* Fix text centering for vertical lines (#33, #34, #38, thanks @msgoloborodov)
-
-### 1.0.0 ###
-
-**Breaking changes**
-
-* Text is now shown on top by default. Set option ``below`` to true to put the text below the layer.
-
-### 0.2.2 ###
-
-* Fix bug when removing layer whose text was removed (fixes #18) (thanks Victor Gomes)
-* Fix path width when using options.center (fixes #17) (thanks Brent Miller).
-
-### 0.2.1 ###
-
-* Fix layer order (fixes #5) (thanks Albin Larsson)
-
-### 0.2.0 ###
-
-* Stay on top after bringToFront
-* Clean-up and fix `onAdd` and `onRemove`
-* Fire mouse events from underlying text layer (thanks Lewis Christie)
-
-### 0.1.0 ###
-
-* Initial working version
-
-
+The main idea comes from Tom Mac Wright's *[Getting serious about SVG](https://web.archive.org/web/20130312131812/http://mapbox.com/osmdev/2012/11/20/getting-serious-about-svg/)*
 
 Authors
 -------
 
 Many thanks to [all contributors](https://github.com/makinacorpus/Leaflet.TextPath/graphs/contributors) !
 
-[![Makina Corpus](http://depot.makina-corpus.org/public/logo.gif)](http://makinacorpus.com)
+[![Makina Corpus](https://geotrek.fr/assets/img/logo_makina.svg)](http://makinacorpus.com)
